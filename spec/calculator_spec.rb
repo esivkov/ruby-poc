@@ -17,4 +17,6 @@ describe Calculator do
    expect(@calculator.add(3, 3)).not_to be_odd 
   end
 
+
+
 end
