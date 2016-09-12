@@ -9,4 +9,4 @@ RUN gem install bundler && bundle install --jobs 20 --retry 5
 # Copy the main application.
 COPY . ./
 
-CMD rake test
+CMD rspec --out '1.txt' spec
