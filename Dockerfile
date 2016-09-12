@@ -1,7 +1,5 @@
 FROM ruby:2.2
 
-USER docker
-
 RUN mkdir -p /app
 WORKDIR /app
 
