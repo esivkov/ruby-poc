@@ -15,4 +15,3 @@ namespace :ci do
   task :all => ['ci:setup:rspec', 'rspec']
 end
 
-task :rspec => 'ci:setup:rspec'
