@@ -12,6 +12,10 @@ describe Calculator do
   	expect(@calculator.add(4, 4)).to eq 8
   end
   	
+  it "should add 3 and 3 correctly" do
+  	expect(@calculator.add(3, 3)).to eq 6
+  end
+  	
   it "should subtract 2 numbers correctly" do
    expect(@calculator.subtract(4, 2)).to eq 2 
   end  
