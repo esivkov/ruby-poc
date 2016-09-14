@@ -9,7 +9,7 @@ describe Calculator do
   end
   
   it "should add 2 numbers correctly" do
-  	expect(@calculator.add(4, 4)).to eq 8
+  	expect(@calculator.add(5, 3)).to eq 8
   end
   	
   it "should subtract 2 numbers correctly" do
