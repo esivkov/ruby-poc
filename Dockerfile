@@ -9,4 +9,4 @@ RUN gem install bundler && bundle install --jobs 20 --retry 5
 # Copy the main application.
 COPY . ./
 
-CMD rspec --out '/opt/results/1.txt' spec
+CMD rake ci:setup:rspec test
