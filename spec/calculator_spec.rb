@@ -13,7 +13,7 @@ describe Calculator do
   end
   	
   it "should subtract 2 numbers correctly" do
-   expect(@calculator.subtract(4, 2)).to eq 2 
+   expect(@calculator.subtract(6, 4)).to eq 2 
   end  
 
   it "should sum two odd numbers and become even" do
