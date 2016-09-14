@@ -5,7 +5,7 @@ describe Calculator do
   before { @calculator = Calculator.new('RSpec calculator')}
 
   it "should add 2 numbers correctly" do
-  	expect(@calculator.add(2, 2)).to eq 4
+  	expect(@calculator.add(2, 2)).to eq 0
   end
   
   it "should add 2 numbers correctly" do
